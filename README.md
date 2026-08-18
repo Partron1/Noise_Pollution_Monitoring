@@ -6,9 +6,9 @@ Monitoring noise pollution using real-time data increases public awareness, supp
 ### Prerequisite knowledge
 Before starting this project, you should have a foundational understanding of core concepts and tools related to IoT systems, mobile app development, and basic data handling. Specifically, you should be familiar with:
 
-- Python programming: A good grasp of Python fundamentals—including data structures, loops, functions, and file handling. Familiarity with libraries like requests, Flask, or tkinter (if applicable) will support app and backend development.
-- Basic electronics and IoT concepts: Understanding how to connect and configure IoT devices (e.g., Raspberry Pi, sensors) and basic knowledge of circuit components, GPIO pin management, and network communication.
-- Embedded systems and hardware-software interaction: Knowing how software communicates with hardware (e.g., sending/receiving data from sensors) is key for integrating the system.
-- Basic mobile or web app development: Some experience with creating simple user interfaces and handling real-time data display will help in the app development phase.
-- Data visualization (basic): If visualizing data is part of your app, familiarity with plotting libraries like Matplotlib or simple dashboard tools will help.
-- Networking basics: Understanding how data is transmitted over networks (e.g., HTTP requests) will be useful for real-time updates.
+- **Python programming:** A good grasp of Python fundamentals—including data structures, loops, functions, and file handling. Familiarity with libraries like requests, Flask, or tkinter (if applicable) will support app and backend development.
+- **Basic electronics and IoT concepts:** Understanding how to connect and configure IoT devices (e.g., Raspberry Pi, sensors) and basic knowledge of circuit components, GPIO pin management, and network communication.
+- **Embedded systems and hardware-software interaction:** Knowing how software communicates with hardware (e.g., sending/receiving data from sensors) is key for integrating the system.
+- **Basic mobile or web app development:** Some experience with creating simple user interfaces and handling real-time data display will help in the app development phase.
+- **Data visualization (basic):** If visualizing data is part of your app, familiarity with plotting libraries like Matplotlib or simple dashboard tools will help.
+- **Networking basics:** Understanding how data is transmitted over networks (e.g., HTTP requests) will be useful for real-time updates.
