@@ -18,4 +18,5 @@ Before starting this project, you should have a foundational understanding of co
 Imagine you are a data analyst working on a smart noise pollution monitoring system. Your role is to analyze real-time noise data collected via IoT sensors to help communities and authorities better understand noise pollution. Your focus is on the following business goals:
 
 **Real-time public awareness:** Provide accurate and timely noise level data to the public through an accessible platform, raising awareness about noise pollution.
+
 **Regulatory support:** Help local authorities monitor noise levels effectively to ensure compliance with noise regulations and improve urban living conditions.
