@@ -104,6 +104,7 @@ Noise Level: 68 dB
 ### Backend platform (Python + Firebase)
 
 Dependencies: ```Flask, pyrebase4```
+
 bash
 
 ```text
