@@ -39,8 +39,8 @@ void loop() {
 **Step 2:** Write Python (or Arduino) scripts to collect noise-level data and timestamp it.
 
 ```text
-*from flask import Flask, render_template*
-*import pyrebase*
+from flask import Flask, render_template
+import pyrebase
 
 config = {
     "apiKey": "YOUR_API_KEY",
