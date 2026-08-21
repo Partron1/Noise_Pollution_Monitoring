@@ -13,10 +13,10 @@ Noise_Pollution_Monitoring/
 │   └── lib/
 │       └── main.dart           # standard Flutter project layout expects lib/
 ├── docs/
-│   ├── requirements.md         # renamed from Requirment.md
+│   ├── requirements.md        
 │   ├── solution.md
 │   ├── task.md
-│   └── tools.md                # renamed from Libraries&Tools.py, kept as notes not code
+│   └── tools.md             
 ├── tests/                       # currently missing — add as backend grows
 ├── .env.example                 # placeholder for Firebase keys instead of hardcoding
 ├── .gitignore
