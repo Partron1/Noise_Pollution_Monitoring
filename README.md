@@ -6,7 +6,7 @@ Noise_Pollution_Monitoring/
 │   └── main.dart            # Real-time noise display
 ├── app.py                   # Flask backend server
 ├── requirements.txt         # Python dependencies (Flask, pyrebase4)
-├── templates/               #Flask HTML templates
+├── templates/               # Flask HTML templates
 │   └── index.html           # Web dashboard (currently empty)
 ├── project_file/            # Documentation
 │   ├── Solution.md          # Full implementation guide
