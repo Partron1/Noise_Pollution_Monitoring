@@ -1,11 +1,11 @@
-## Tools
+### Tools
 
 - RPi.GPIO (for Raspberry Pi GPIO control)
 - Flask or Django (for creating a backend server, if needed)
 
 pip install Flask pyrebase4
 
-### Run Flask App:
+#### Run Flask App:
 
 python app.py
 
