@@ -18,7 +18,10 @@ Noise_Pollution_Monitoring/
 # Noise_Pollution_Monitoring
 Design and implement an IoT-enabled noise pollution monitoring system to measure real-time sound levels in public areas. 
 
-Monitoring noise pollution using real-time data increases public awareness, supports policy enforcement, and contributes to a better quality of life in urban environments. In this project, we designed and implemented an IoT-enabled noise pollution monitoring system to measure real-time sound levels in public areas. We integrated IoT sensors, use Python for data handling, and applied system design principles to build a scalable solution that promotes awareness and supports urban environmental planning. 
+Monitoring noise pollution using real-time data increases public awareness, supports policy enforcement, and contributes to a better quality of life in urban environments. In this project, we designed and implemented an IoT-enabled noise pollution monitoring system to measure real-time sound levels in public areas. We integrated IoT sensors, use Python for data handling, and applied system design principles to build a scalable solution that promotes awareness and supports urban environmental planning.
+
+### How it fits together 
+The Arduino firmware reads noise levels from sound sensors and transmits them via ESP8266 Wi-Fi to Firebase Realtime Database. The Flask backend queries Firebase and serves a web dashboard via templates/index.html. The Flutter mobile app simultaneously subscribes to the same Firebase database to show live noise levels on mobile devices. All three components (firmware, backend, mobile) sync through a centralized Firebase real-time database.
 
 ### Prerequisite knowledge
 Before starting this project, you should have a foundational understanding of core concepts and tools related to IoT systems, mobile app development, and basic data handling. Specifically, you should be familiar with:
