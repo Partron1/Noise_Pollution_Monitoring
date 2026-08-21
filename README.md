@@ -1,27 +1,19 @@
 ```text
 Noise_Pollution_Monitoring/
-├── firmware/
-│   └── arduino_sensor/
-│       └── arduino_sensor.ino
-├── backend/
-│   ├── app.py                  # Flask entry point
-│   ├── config.py                # Firebase config (gitignored, use .env)
-│   ├── requirements.txt
-│   └── templates/
-│       └── index.html
-├── mobile/
-│   └── lib/
-│       └── main.dart           # standard Flutter project layout expects lib/
-├── docs/
-│   ├── requirements.md        
-│   ├── solution.md
-│   ├── task.md
-│   └── tools.md             
-├── tests/                       # currently missing — add as backend grows
-├── .env.example                 # placeholder for Firebase keys instead of hardcoding
-├── .gitignore
-├── LICENSE
-└── README.md
+├── arduino/                  Arduino firmware for KY-037/KY-038 sound sensors
+│   └── arduino_sensor.ino   Sensor data collection (C++)
+├── mobile/                   Flutter mobile app
+│   └── main.dart            Real-time noise display
+├── app.py                    Flask backend server
+├── requirements.txt          Python dependencies (Flask, pyrebase4)
+├── templates/               Flask HTML templates
+│   └── index.html           Web dashboard (currently empty)
+├── project_file/            Documentation
+│   ├── Solution.md          Full implementation guide
+│   ├── Task.md              Project requirements
+│   ├── docs.md              References
+│   └── tools.md             Tool requirements
+└── LICENSE, README.md, .gitignore
 ```
 # Noise_Pollution_Monitoring
 Design and implement an IoT-enabled noise pollution monitoring system to measure real-time sound levels in public areas. 
